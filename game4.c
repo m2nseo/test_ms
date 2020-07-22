@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
     
     int complay;
     int i;
@@ -12,6 +13,7 @@
         printf("N N N\nN N N\nN N N\n");
         printf("-----------------------------------\n");
 
+        srand(time(NULL));
         complay = rand()%10;
 
         for(i=0; 5 > i;i++) 
