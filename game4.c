@@ -19,6 +19,7 @@
         
 
         if(complay == x) {
+            printf("-----------------------------------\n");
             printf("Great! %d is Correct!\n",complay);
             bord[x-1] = 'O';
             printf("%c %c %c\n%c %c %c\n%c %c %c\n",
@@ -29,6 +30,7 @@
         }
         else {
             if(i < 4)  {
+                printf("-----------------------------------\n");
                 printf("Wrong Answer! %d Chances Left!\n", 4-i);
                 bord[x-1] = 'X';
                 printf("%c %c %c\n%c %c %c\n%c %c %c\n",
